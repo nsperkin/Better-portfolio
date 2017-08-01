@@ -1,0 +1,362 @@
+/* General */
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	color: #777777;
+    background-image: url("../images/creampaper.png");
+    margin:0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	color: #ccc;
+	background-color: #ccc;
+	margin-bottom: 10px;
+}
+
+/* Computer */
+@media screen and (min-width: 980px) {
+	.main {
+		float: left;
+		width: 50%;
+		margin: 100px 0px 50px 100px;
+		border: solid 1px #ccc;
+		padding: 20px;
+		background-color: white;
+	}
+
+	.title1 {
+		color: #4aaaa5;
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	/* header */
+	#navbar-logo {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		float: left;
+		position: fixed;
+		color: #ffffff;
+		background-color: #4aaaa5;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 700;
+		padding: 13px;
+		height: 40px;
+		width: 300px;
+		margin-left: 100px;
+	}
+
+	#navbar-links {
+		float: right;
+		color: #ccc;
+		text-align: center;
+		margin: 25px 100px 25px 0px;
+	}
+
+	.link {
+		color: #666;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.navbar {
+		position: fixed;
+		width:100%;
+		background-color: white;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #ccc;
+	}
+
+	/* About */
+	#profile {
+		float: left;
+		width: auto;
+		height: 160px;
+		margin-right: 10px;
+	}
+
+	#about {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	/* Contact */
+	#name, #email, #message {
+		display: block;
+		width: 100%;
+
+	}
+
+	.form {
+		width: 100%;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+
+	#submit {
+		color: white;
+		background-color: #4aaaa5;
+		padding: 5px;
+		border: none;
+	}
+
+	/* sidebar */
+	.sidebar {
+		float: right;
+		margin: 100px 100px 50px 0px;
+		padding: 20px;
+		text-align: center;
+		width: 15%;
+		border: solid 1px #ccc;
+		background-color: white;
+	}
+
+	.title2 {
+		color: #4aaaa5;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#github {
+		width: 85px;
+		height: auto;
+	}
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	.main {
+		float: left;
+		width: 90%;
+		margin: 100px 20px 20px 20px;
+		border: solid 1px #ccc;
+		padding: 20px;
+		background-color: white;
+	}
+
+	.title1 {
+		color: #4aaaa5;
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	/* header */
+	#navbar-logo {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		float: left;
+		position: fixed;
+		color: #ffffff;
+		background-color: #4aaaa5;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 700;
+		padding: 13px;
+		height: 40px;
+		width: 300px;
+		margin-left: 20px;
+	}
+
+	#navbar-links {
+		float: right;
+		color: #ccc;
+		text-align: center;
+		margin: 25px 20px 25px 0px;
+	}
+
+	.link {
+		color: #666;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.navbar {
+		position: fixed;
+		width:100%;
+		background-color: white;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #ccc;
+	}
+
+	/* About */
+	#profile {
+		float: left;
+		width: auto;
+		height: 160px;
+		margin-right: 10px;
+	}
+
+	#about {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	/* Contact */
+	#name, #email, #message {
+		display: block;
+		width: 100%;
+
+	}
+
+	.form {
+		width: 100%;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+
+	#submit {
+		color: white;
+		background-color: #4aaaa5;
+		padding: 5px;
+		border: none;
+	}
+
+	/* sidebar */
+	.sidebar {
+		padding: 20px;
+		margin: 20px 20px -50px 20px;
+		float: left;
+		text-align: center;
+		width: 90%;
+		border: solid 1px #ccc;
+		background-color: white;
+	}
+
+	.title2 {
+		color: #4aaaa5;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#github {
+		width: 85px;
+		height: auto;
+	}
+}
+
+/* Phone */
+@media screen and (max-width: 767px) {
+	.main {
+		float: left;
+		width: 90%;
+		margin: 120px 20px 20px 20px;
+		border: solid 1px #ccc;
+		padding: 20px;
+		background-color: white;
+	}
+
+	.title1 {
+		color: #4aaaa5;
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	/* header */
+	#navbar-logo {
+		font-family: Georgia, Times, "Times New Roman", serif;
+		position: fixed;
+		color: #ffffff;
+		background-color: #4aaaa5;
+		text-align: center;
+		width: 100%;
+		font-size: 30px;
+		font-weight: 700;
+		padding: 13px;
+		height: 40px;
+	}
+
+	#navbar-links {
+		width: 100%;
+		color: #ccc;
+		text-align: center;
+		margin: 75px 0px 10px 0px;
+	}
+
+	.link {
+		color: #666;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	.navbar {
+		position: fixed;
+		width:100%;
+		background-color: white;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #ccc;
+	}
+
+	/* About */
+	#profile {
+		float: left;
+		width: auto;
+		height: 160px;
+		margin-right: 10px;
+	}
+
+	#about {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	/* Contact */
+	#name, #email, #message {
+		display: block;
+		width: 100%;
+
+	}
+
+	.form {
+		width: 100%;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+
+	#submit {
+		color: white;
+		background-color: #4aaaa5;
+		padding: 5px;
+		border: none;
+	}
+
+	/* sidebar */
+	.sidebar {
+		padding: 20px;
+		margin: 20px 20px -50px 20px;
+		float: left;
+		text-align: center;
+		width: 90%;
+		border: solid 1px #ccc;
+		background-color: white;
+	}
+
+	.title2 {
+		color: #4aaaa5;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#github {
+		width: 85px;
+		height: auto;
+	}
+}
